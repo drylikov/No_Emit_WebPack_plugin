@@ -1,6 +1,4 @@
-# No Emit WebPack Plugin
-
-[![Build Status](https://travis-ci.org/xipasduarte/no-emit-webpack-plugin.svg?branch=master)](https://travis-ci.org/xipasduarte/no-emit-webpack-plugin)
+# No Emit WebPack plugin
 
 Stop an asset from being emitted by the webpack compiler.
 
@@ -9,17 +7,17 @@ Stop an asset from being emitted by the webpack compiler.
 **Webpack 5**
 
 ```bash
-npm install --save-dev no-emit-webpack-plugin
+npm install --save-dev No_Emit_WebPack_plugin
 ```
 
 ```bash
-yarn add -D no-emit-webpack-plugin
+yarn add -D No_Emit_WebPack_plugin
 ```
 
 **Webpack 4**
 
 ```bash
-npm install --save-dev no-emit-webpack-plugin@3.0.0
+npm install --save-dev No_Emit_WebPack_plugin@3.0.0
 ```
 
 ```bash
@@ -45,7 +43,7 @@ Below is an example on how to remove the `style.js` file from the emitted assets
 
 ```js
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const NoEmitPlugin = require('no-emit-webpack-plugin');
+const NoEmitPlugin = require('No_Emit_WebPack_plugin');
 
 module.exports = {
   entry: {
