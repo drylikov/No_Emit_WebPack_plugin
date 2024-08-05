@@ -62,7 +62,3 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin()],
 }
 ```
-
-## License
-
-MIT © [Pedro Duarte](https://github.com/xipasduarte)
